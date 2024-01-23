@@ -35,6 +35,8 @@ export class OldRegime {
         (taxableAmount - 1000000) * 0.3;
     }
 
+    console.log('testing');
+
     return tax;
   }
 }
