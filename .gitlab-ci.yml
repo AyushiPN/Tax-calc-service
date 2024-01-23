@@ -1,0 +1,14 @@
+image: node:18-alpine
+
+stages:
+  - build
+
+variables:
+  # Define your environment variables here
+
+build:
+  stage: build
+  script:
+    - npm i @nestjs/cli
+    - npm install
+    - npm run build
